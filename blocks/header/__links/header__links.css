@@ -1,0 +1,5 @@
+.header__links {
+    flex-basis: 78px;
+    display: flex;
+    justify-content: space-between;
+}
