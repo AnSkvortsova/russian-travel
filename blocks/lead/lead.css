@@ -3,3 +3,14 @@
     color: #FFFFFF;
     padding-bottom: 92px;
 }
+
+@media (max-width: 768px) {
+    .lead {
+        padding-bottom: 88px;
+    }
+}
+@media (max-width: 320px) {
+    .lead {
+        padding-bottom: 64px;
+    }
+}

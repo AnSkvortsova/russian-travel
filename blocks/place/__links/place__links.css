@@ -2,3 +2,16 @@
     grid-area: link;
     align-self: flex-end;
 }
+
+@media (max-width: 600px) {
+    .place__links {
+        align-self: flex-start;
+    }
+}
+@media (max-width: 320px) {
+    .place__links {
+        width: 90%;
+        margin: auto;
+        align-self: flex-start;
+    }
+}

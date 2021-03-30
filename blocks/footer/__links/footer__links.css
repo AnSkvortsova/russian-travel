@@ -1,0 +1,8 @@
+@media (max-width: 680px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        padding-bottom: 32px;
+    }
+}

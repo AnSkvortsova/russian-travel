@@ -1,13 +1,15 @@
 .cover__link {
     position: relative;
-    max-width: 92%;
+    width: 92%;
+    margin: 0 auto;
     text-decoration: none;
-    display: block;
-    padding-top: 245px;
-    padding-bottom: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(../../../images/cover__background.jpg);
-    background-size: 100% 100%;
-    margin: auto;
+    min-height: 94vh;
+    background-size: cover;
+    background-position: center;
     z-index: 1;
 }
 .cover__link::after {
@@ -23,4 +25,41 @@
 }
 .cover__link:hover::after {
     opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+    .cover__link {
+        width: 100%;
+        min-height: 81vh;
+    }
+}
+@media (max-width: 768px) {
+    .cover__link {
+        min-height: 81vh;
+    }
+}
+@media (max-width: 650px) {
+    .cover__link {
+        min-height: 70vh;
+    }
+}
+@media (max-width: 520px) {
+    .cover__link {
+        min-height: 60vh;
+    }
+}
+@media (max-width: 440px) {
+    .cover__link {
+        min-height: 50vh;
+    }
+}
+@media (max-width: 370px) {
+    .cover__link {
+        min-height: 40vh;
+    }
+}
+@media (max-width: 320px) {
+    .cover__link {
+        min-height: 33vh;
+    }
 }

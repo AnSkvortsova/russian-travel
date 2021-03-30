@@ -1,8 +1,28 @@
 .header__columns {
-    max-width: 92%;
+    width: 93%;
     margin: 0 auto;
     padding-top: 28px;
     padding-bottom: 56px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .header__columns {
+        width: 91%;
+        padding-bottom: 48px;
+    }
+}
+@media (max-width: 768px) {
+    .header__columns {
+        width: 94%;
+        padding-bottom: 48px;
+    }
+}
+@media (max-width: 320px) {
+    .header__columns {
+        width: 90%;
+        padding-top: 16px;
+        padding-bottom: 48px;
+    }
 }
