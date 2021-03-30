@@ -10,4 +10,4 @@
 
 **Сcылка на сайт**
 
-* [Ссылка на сайт](https://anskvortsova.github.io/russian-travel/index.html)
+* [Путешествие по России](https://anskvortsova.github.io/russian-travel/index.html)
