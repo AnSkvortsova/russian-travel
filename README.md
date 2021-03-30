@@ -8,6 +8,6 @@
 
 ***
 
-**ССылка на сайт**
+**Сcылка на сайт**
 
-* [Ссылка на сайт]()
+* [Ссылка на сайт](https://anskvortsova.github.io/russian-travel/index.html)
