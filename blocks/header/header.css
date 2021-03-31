@@ -2,3 +2,10 @@
     font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
 }
+
+@media (min-width: 1290px) {
+    .header{
+        width: 1184px;
+        margin: 0 auto;
+    }
+}

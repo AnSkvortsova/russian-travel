@@ -4,6 +4,7 @@
     margin: 0 auto;
     text-decoration: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(../../../images/cover__background.jpg);
@@ -26,6 +27,14 @@
 .cover__link:hover::after {
     opacity: 0.8;
 }
+
+@media (min-width: 1290px) {
+    .cover__link{
+        width: 1184px;
+        min-height: 740px;
+        margin: 0 auto;
+    }
+} 
 
 @media (max-width: 1024px) {
     .cover__link {

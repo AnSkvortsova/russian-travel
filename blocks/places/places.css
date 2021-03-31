@@ -4,6 +4,13 @@
     padding-bottom: 92px;
 }
 
+@media (min-width: 1290px) {
+    .places{
+        width: 984px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .places {
         width: 94%;
