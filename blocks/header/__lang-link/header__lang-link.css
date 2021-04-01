@@ -6,6 +6,10 @@
     text-decoration: none;
     padding: 0;
 }
+.header__lang-link:hover {
+    opacity: 0.8;
+    transition: opacity .3s linear;
+}
 
 @media (max-width: 320px) {
     .header__lang-link {

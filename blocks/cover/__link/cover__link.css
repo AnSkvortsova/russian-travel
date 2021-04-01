@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(../../../images/cover__background.jpg);
-    min-height: 94vh;
+    min-height: 740px;
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -26,49 +26,33 @@
 }
 .cover__link:hover::after {
     opacity: 0.8;
+    transition: opacity .3s linear;
 }
 
 @media (min-width: 1290px) {
     .cover__link{
         width: 1184px;
-        min-height: 740px;
-        margin: 0 auto;
     }
 } 
 
 @media (max-width: 1024px) {
     .cover__link {
         width: 100%;
-        min-height: 81vh;
+        min-height: 640px;
     }
 }
 @media (max-width: 768px) {
     .cover__link {
-        min-height: 81vh;
+        min-height: 480px;
     }
 }
-@media (max-width: 650px) {
+@media (max-width: 560px) {
     .cover__link {
-        min-height: 70vh;
+        min-height: 350px;
     }
 }
-@media (max-width: 520px) {
+@media (max-width: 400px) {
     .cover__link {
-        min-height: 60vh;
-    }
-}
-@media (max-width: 440px) {
-    .cover__link {
-        min-height: 50vh;
-    }
-}
-@media (max-width: 370px) {
-    .cover__link {
-        min-height: 40vh;
-    }
-}
-@media (max-width: 320px) {
-    .cover__link {
-        min-height: 33vh;
+        min-height: 200px;
     }
 }

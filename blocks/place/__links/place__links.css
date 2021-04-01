@@ -3,7 +3,7 @@
     align-self: flex-end;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .place__links {
         align-self: flex-start;
     }
@@ -12,6 +12,5 @@
     .place__links {
         width: 90%;
         margin: auto;
-        align-self: flex-start;
     }
 }

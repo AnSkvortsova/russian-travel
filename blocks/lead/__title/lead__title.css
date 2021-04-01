@@ -17,29 +17,19 @@
 }
 @media (max-width: 540px) {
     .lead__title {
+        max-width: 470px;
         font-size: 60px;
         line-height: 65px;
     }
 }
 @media (max-width: 470px) {
     .lead__title {
-        font-size: 55px;
-        line-height: 60px;
-    }
-}
-@media (max-width: 425px) {
-    .lead__title {
-        font-size: 50px;
-        line-height: 55px;
+        max-width: 330px;
+        font-size: 45px;
+        line-height: 50px;
     }
 }
 @media (max-width: 360px) {
-    .lead__title {
-        font-size: 30px;
-        line-height: 34px;
-    }
-}
-@media (max-width: 320px) {
     .lead__title {
         font-size: 40px;
         line-height: 44px;
