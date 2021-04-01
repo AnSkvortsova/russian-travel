@@ -8,14 +8,14 @@
     text-rendering: optimizeLegibility;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 710px) {
     .lead__title {
-        max-width: 600px;
-        font-size: 72px;
-        line-height: 78px;
+        max-width: 550px;
+        font-size: 68px;
+        line-height: 73px;
     }
 }
-@media (max-width: 540px) {
+@media (max-width: 590px) {
     .lead__title {
         max-width: 470px;
         font-size: 60px;
